@@ -1,9 +1,8 @@
-var gulp    = require( 'gulp' );
+var gulp        = require( 'gulp' );
 var gulp_folder = './gulp';
-var assets  = require( gulp_folder + '/assets-src' );
-var scripts = require( gulp_folder + '/scripts' );
-var styles  = require( gulp_folder + '/styles' );
-var watch   = require( gulp_folder + '/watch' );
+var scripts     = require( gulp_folder + '/scripts' );
+var styles      = require( gulp_folder + '/styles' );
+var watch       = require( gulp_folder + '/watch' );
 
 // Compile SASS files
 gulp.task( 'compile-sass', styles.compileSASS );

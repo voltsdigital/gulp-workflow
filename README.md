@@ -20,6 +20,10 @@ para instalar todas as dependências do Gulp.
 
 Edite o arquivo `gulp/assets-src.js` para definir os caminhos corretos para seus arquivos.
 
+### Versão Mobile diferente de Desktop
+
+Se o seu projeto tem uma versão mobile diferente do desktop, você pode chamar os assets passando o parâmetro `m` para pegar o diretório referente aos assets do mobile.
+
 ## Utilização
 
 ### `gulp w`

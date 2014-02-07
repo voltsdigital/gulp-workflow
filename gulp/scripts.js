@@ -51,23 +51,7 @@ return {
 			// Todos os arquivos de /lib listados na ordem abaixo
 			'/lib/jquery',
 			'/lib/jquery.plugins',
-			'/lib/jquery.sexyforms',
-			'/lib/jquery.init_jcarousel',
 			'/lib/socialite.min',
-			'/lib/handlebars',
-			'/lib/jquery.creditCardValidator',
-
-			// Cidades / Estados
-			'/lib/cidades-estados-1.2-utf8',
-
-			// CreateJS
-			'/lib/preloadjs-NEXT.min',
-			'/lib/easeljs-NEXT.min',
-
-			// Upload com Ajax/Drag 'n Drop
-			'/lib/jquery.ui.widget',
-			'/lib/jquery.fileupload',
-			'/lib/jquery.iframe-transport',
 
 			// O script principal, que conterá as funções usadas em todas as páginas
 			'/scripts',
