@@ -2,6 +2,8 @@
 
 Para utilizar o Gulp, primeiro é necessário baixar e instalar o [NodeJS](http://nodejs.org/download/)
 
+> Esse Workflow é compatível com o Gulp 3.5+
+
 Instale o Gulp globalmente:
 ```
 [sudo] npm i -g gulp
@@ -16,7 +18,7 @@ para instalar todas as dependências do Gulp.
 
 ## Configuração
 
-Edite o arquivo `gulp/assets-src` para definir os caminhos corretos para seus arquivos.
+Edite o arquivo `gulp/assets-src.js` para definir os caminhos corretos para seus arquivos.
 
 ## Utilização
 
