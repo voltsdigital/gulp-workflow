@@ -1,8 +1,8 @@
 module.exports = function( mobile_or_desk ) {
 
 	var assets_src = ( 'm' === mobile_or_desk )
-		? '../skin/frontend/volts_mobile/default'
-		: '../skin/frontend/volts/default';
+		? '../mobile-assets'
+		: '../assets';
 
 	return {
 		src : assets_src,
